@@ -1,0 +1,45 @@
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+   
+    background-repeat: no-repeat;
+    padding: 20px 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+
+    background-color: rgb(197, 202, 204);
+    display: flex;
+    justify-content: space-between;
+}
+.img2.jpg{
+    width: 100%;
+    height: auto;
+    padding: 200px;
+
+}
+
+
+.content{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;}
+
+.user{
+    align-items: center;
+}
+.pass{
+    justify-content: center;
+}
+.phone{
+    justify-content: center;
+}
+.jpg{
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+}

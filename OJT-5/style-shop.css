@@ -1,0 +1,52 @@
+.Left{
+    width : 30%;
+    float : left;
+}
+.Right{
+    width: 70%;
+    float : right;
+}
+
+.tab-1 {display: none;}
+
+.menu-bar ul li:hover .tab-1 {display: block;
+      position: absolute;
+           list-style: none;
+           color: blanchedalmond;
+       margin-top: 15px;
+      margin-left: -15px;}
+
+.menu-bar ul li:hover .tab-1 ul 
+{display: block;
+margin: 10px;}
+
+.menu-bar ul li:hover .tab-1 ul li { width: 150px;
+padding: 20px;
+border-bottom: 2px dotted;
+background: transparent;
+text-align: left;}
+      
+.menu-bar ul li:hover .tab-1 ul li:last-child {border-bottom: none;}
+
+.menu-bar ul li:hover .tab-1 ul li:hover {background:rgb(124, 190, 124) ; border-radius: 5px;}
+
+.menu-bar ul li .tab-1 ul li .newfile ul li:last-child {border-bottom: none;}
+
+<li><a href="#">File<i class="fa-solid fa fa-fw fa-chevron-circle-down mt-1 ml-10"></i></a>
+<div class="tab-1">
+ <ul>
+ <li><a href="#" class="newfile">NewFile <div class="file">
+     <ul>
+         <li><a href="#">New File-1</a></li>
+         <li><a href="#">New File-2</a></li>
+         <li><a href="#">New File-3</a></li>
+     </ul>
+
+ </div></a></li>
+
+ <li><a href="#">NewWindow</a></li>
+ <li><a href="#">OpenFile</a></li>
+ <li><a href="#">OpenFolder</a></li>
+ <li><a href="#">Preferences</a></li>
+  </ul>
+ </li>

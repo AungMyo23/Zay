@@ -1,0 +1,90 @@
+            <label for="inputemail">Email</label><br>
+            <input type="text" id="inputemail" placeholder="Email" /></div>
+            
+        <div class="">
+            <div><label for="inputsubject">Subject</label></div>
+             <div><input type="text" id="inputsubject" placeholder="Subject" /></div>
+             </div>
+             <div class="">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <div class="row">
+                    <div class="col text-end mt-2">
+                        <button type="submit" class="btn btn-success btn-lg px-3">Let's Talk</button>
+                    </div>
+                </div>
+             </div>
+          </body>
+          </html>
+
+
+             <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out bg-zinc-100" data-carousel-item>
+        <div class="text-align-right w- align-self-center"><img src="banner_img_02.jpg" class="absolute block-translate-x-1/2 -translate-y-1/2 top-1/2 right-1" alt="...">
+     </div>
+   </div>
+     <!-- Item 3 -->
+     <div class="hidden duration-700 ease-in-out" data-carousel-item>
+         <img src="banner_img_03.jpg" class="absolute block-translate-x-1/2 -translate-y-1/2 top-1/2 right-1" alt="...">
+     </div>
+   
+
+     <div class="relative h-56 overflow-hidden rounded-lg md:h-96"></div>
+
+     div class="Ecommerce bg-red-400 w-80">
+      <h1><b>Zay</b> eCommerce</h1>
+      <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
+      <p> 
+          Zay Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
+          This template is 100% free provided by <a class="text-success" href="https://templatemo.com">TemplateMo</a> website. 
+          Image credits go to <a class="text-success" href="https://stories.freepik.com/" >Freepik Stories</a>,
+          <a class="text-success" href="https://unsplash.com/">Unsplash</a> and
+          <a class="text-success" href="https://icons8.com/">Icons 8</a>.
+      </p>
+      </div>    
+
+      <div class="relative bg-green-800 h-50 overflow-hidden rounded-lg md:h-96 mt-5">
+        <img
+          src="about-hero.svg"
+          class="absolute px-4 -translate-x-1/2 -translate-y-1/2 top-1/2 right-1 w-100 h-80"
+        />
+        <div
+          class="absolute px-4 text-2xl mt-10 right-1/2 left-20 bottom-40 top-20">
+          <p class="text-4xl text-white">About us</p>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim
+            ex iusto dolorem fugit, laudantium sapiente odit temporibus excepturi
+            doloremque atque facilis a, tempore facere, blanditiis vitae nemo
+            dolorum animi!
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-center space-x-40 mt-10">
+        <div class="border w-35 h-32 p-4 b-4 bg-white shadow-2xl shadow-slate-400">
+           <i class="fa-solid fa-truck icon text-5xl text-green-700"></i>
+          <p>Delivery Services</p>
+        </div>
+       <div
+          class="border w-35 h-32 p-4 b-4 bg-white shadow-2xl shadow-slate-400">
+       <i class="fa-solid fa-right-left icon text-5xl text-green-700"></i>
+      <p>Shipping & Return</p>
+      </div>
+     <div
+      class="border w-40 h-32 p-4 b-4 bg-white shadow-2xl shadow-slate-400">
+     <i class="fa-solid fa-percent icon text-5xl text-green-700"></i>
+      <p>Promotion</p>
+     </div>
+     <div
+     class="border w-35 h-32 p-4 b-4 bg-white shadow-2xl shadow-slate-400">
+     <i class="fa-solid fa-user icon text-5xl text-green-700"></i>
+    <p>24 Hours Services</p>
+   </div>
+     </div>
+
+     
+     <div class="gender flex justify-center ml-40">
+      <div class="all ml-10">All</div>
+      <div class="men ml-10">Men's</div>
+      <div class="women ml-10">Women's</div>
+    </div>
